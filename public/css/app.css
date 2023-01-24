@@ -10004,3 +10004,17 @@ h3 {
     border-color: #dee2e6;
   }
 }
+.bg-menu {
+  color: White;
+  background: rgba(6, 136, 211, 0.911);
+  width: 15%;
+}
+
+body {
+  background: #f0f2f6;
+  background: linear-gradient(90deg, #e6eeff 0%, rgba(220, 240, 255, 0.872) 100%);
+}
+
+.heading {
+  font-size: 35px;
+}

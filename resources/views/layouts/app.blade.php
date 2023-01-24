@@ -11,16 +11,10 @@
     <link href='//fonts.googleapis.com/css?family=Roboto:400,300' rel='stylesheet' type='text/css'>
     {{-- Font Awesome --}}
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
   </head>
 
-  <style>
+   <style>
 
     .bg-menu{
 
@@ -35,7 +29,7 @@
 
       
       background: rgb(240, 242, 246);
-      background: linear-gradient(90deg, rgb(230, 238, 255) 0%, rgba(220, 240, 255, 0.872) 100%);      
+      background: linear-gradient(90deg, rgb(247, 250, 255) 0%, rgba(237, 246, 253, 0.872) 100%);      
     }
 
     .heading{
@@ -43,7 +37,7 @@
       font-size:35px;
     }
 
-  </style>
+  </style>  
   <body>
     <nav class="navbar navbar-default">
       <div class="container-fluid">
@@ -115,7 +109,7 @@
       </div>
       @endif
       <div class="row d-flex justify-content-center">
-        <div class="col-12 col-lg-8">
+        <div class="col-12 col-lg-10">
           <div class="panel panel-default">
             <div class="panel-heading">
               <h2>@yield('title')</h2>

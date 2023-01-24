@@ -1,6 +1,7 @@
 @extends('layouts.app')
 @section('title')
 
+
     @if($post)
         {{ $post->title }}
         @if(!Auth::guest() && ($post->author_id == Auth::user()->id || Auth::user()->is_admin()))
